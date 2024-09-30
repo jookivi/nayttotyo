@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Pitsatilaus</title>
+</head>
+<body>
+    <h1>Tee pitsatilaus tayttamalla lomake!</h1>
+    <form action="/pitsatilaus.html">
+        <label for="nimi">Tilaajan nimi:</label>
+        <input type="text" id="nimi"
+        name="nimi"><br><br>
+    </form>
+
+    <form action="/pitsatilaus.html">
+        <label for="pitsat">Valitse pitsa:</label>
+        <select name="pitsat" id="pitsat">
+            <option
+            value="tropicana">Tropicana</option>
+            <option
+            value="perfetta">Perfetta</option>
+            <option
+            value="americana">Americana</option>
+            <option
+            value="jauheliha">Jauheliha</option>
+            <option
+            value="kebab">Kebab</option>
+        </select>
+    </form>
+
+    <p>Pitsan koko:</p>
+    <form action="/pitsatilaus.html">
+        <input type="radio" name="pitsatilaus" id="pieni">
+        <label for="pieni">Pieni</label>
+        <br>
+        <input type="radio" name="pitsatilaus" id="Normaali"
+        name="pitsatilaus" value="Normaali">
+        <label for="Normaali">Normaali</label>
+        <br>
+        <input type="radio" name="pitsatilaus" id="Iso"
+        name="pitsatilaus" value="Iso">
+        <label for="Iso">Iso</label><br><br>
+    </form>
+
+    <form>
+        <input type="checkbox" name="lisä" id="lisä"
+        value="juusto">
+        <label for="lisä">Extra juusto</label><br>
+        <input type="checkbox" name="lisä2" id="lisä2"
+        value="kastike">
+        <label for="lisä2">Tulinen tomaattikastike</label><br>
+        <input type="checkbox" id="lisä3" name="lisä3"
+        value="valkosipuli">
+        <label for="lisä3">Valkosipuli</label><br><br>
+    </form>
+    <header>Lisätietoja tilaukseen:</header>
+    <textarea name="lisätiedot" rows="10" cols="30">
+
+    </textarea><br>
+
+
+    <input type="submit"
+    value="Tilaa">
+    <input type="submit"
+    value="Tyhjennä">
+</body>
+</html>

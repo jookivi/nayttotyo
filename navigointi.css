@@ -1,0 +1,18 @@
+ul.nav {
+    list-style-type:none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul.nav a {
+    display:block;
+}
+
+ul.nav a {
+    display: block;
+    width: 8em;
+    height: 1.25em;
+    color: black;
+}
+
+.nav li { float:left; }

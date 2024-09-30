@@ -1,0 +1,60 @@
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 55px;
+    text-align: center;
+    color:pink;
+}
+div {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    
+
+}
+body {
+    background-color:darkslategrey;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+    background-color: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    color: pink;
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: transparent;
+}
+
+a:active {
+    text-decoration: underline;
+    color: yellow;
+    background-color: transparent;
+}
+
+table, td, th {
+    border: 1px solid pink;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: pink;
+}
+

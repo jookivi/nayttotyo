@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Lomakkeet</title>
+</head>
+<h1>Ilmottautumislomake Koodaa kotisivu -tapahtumaan</h1>
+<p>Ilmoittaudu mukaan tapahtumaan.</p>
+<p>Kaikille osallistujille T-paita! Tapahtumassa kahvitarjoilu.</p>
+<body>
+    <form action="Lomakeharjoitus1.html">
+    <fieldset>
+        <legend>Henkilön tiedot</legend>
+        <label for="etunimi">Etunimi:</label><br>
+        <input type="text" name="Etunimi" id="Etunimi"><br>
+        <label for="sukunimi">Sukunimi:</label><br>
+        <input type="text" name="Sukunimi" id="Sukunimi"><br>
+        <label for="sähköposti">Sähköpostiosoite:</label><br>
+        <input type="text" name="Sähköposti" id="Sähköposti">
+    </fieldset>
+    </form>
+
+    <form action="/Lomakeharjoitus1.html">
+    <fieldset>
+        <legend>Muut tiedot</legend>
+        <label for="paita">T-paidan koko</label>
+        <select name="paita" id="koko">
+            <option
+            value="XS">XS</option>
+            <option
+            value="S">S</option>
+            <option
+            value="M">M</option>
+            <option
+            value="L">L</option>
+            <option
+            value="XL">XL</option>
+            <option
+            value="XLL">XXL</option>
+        </select>
+            
+            <p>Minua kiinnostaa erityisesti (voit valita useampia CTRL alas painettuna): </p>
+
+            <form action="/Lomakeharjoitus1.html">
+             <select name="kielet" id="kielet"
+            size="4" multiple>
+            <option value="php">PHP</option>
+            <option value="java">JAVASCRIPT</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+
+             </select>  
+            </form>
+
+
+        <p>Minulle saa lähettää uutiskirjeen:</p>
+
+        <form action="/action_page.php">
+                 <input type="radio" id="kyllä" name="checkbox" value="kyllä">
+                 <label for="html">Kyllä</label><br>
+                 <input type="radio" id="ei" name="checkbox" value="ei">
+                 <label for="css">Ei</label><br>
+                </form>
+        
+        <p>Terveiseni/kysymykseni järjestäjille:</p>
+
+        <textarea name="viesti" rows="10" cols="30">
+
+
+        </textarea>
+
+        
+                
+        
+        
+            
+        
+        
+        </form>
+    </fieldset>
+    </form>
+    <input type="submit">
+
+
+    
+</body>
+</html>
